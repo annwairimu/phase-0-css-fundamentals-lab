@@ -3,3 +3,48 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Center header text */
+header h1 {
+  text-align: center;
+}
+
+/* Center image */
+#featured-property figure {
+  text-align: center;
+}
+
+/* Center and style navbar links */
+header nav a {
+  padding: 10px;
+  background-color: grey;
+
+}
+
+/* Style image caption */
+#featured-property figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Center text block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Style and float details section */
+#details {
+  overflow: hidden;
+  
+}
+
+#details div {
+  width: 25%;
+  float: left;
+  text-align: center;
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+
